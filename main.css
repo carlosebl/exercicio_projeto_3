@@ -1,0 +1,78 @@
+body {
+    font-family: 'Lacquer', cursive;
+    background-color: #000;
+    color: #ffaa36;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #000;
+    color: #ffaa36;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover,
+.navbar i {
+    color: #ffaa36;
+}
+
+#social-links .nav {
+    margin-left: 1080px;
+}
+
+#home img {
+    width: 100%;
+}
+
+#release {
+    color: #ffaa36;
+}
+
+#release img {
+    width: 480px;
+}
+
+#fotos h2,
+#videos h2 {
+    text-align: center;
+}
+
+#contato button {
+    background-color: #ffaa36;
+    color: #000;
+}
+
+@media (max-width: 767px) {
+    .nav,
+    .navbar {
+        justify-content: center;
+        font-size: .9em;
+    }
+
+    #social-links .nav {
+        margin-left: 0px;
+    }
+
+    #release img {
+        max-width: 100%;
+    }
+
+    #release h2 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+    #social-links .nav {
+        margin-left: 0px;
+    }
+
+    #release img {
+        width: 100%;
+    }
+}
